@@ -40,7 +40,10 @@ python .\predict.py --type cif --crystal .\data\predict_cif\CaTiO3_mp-4019_conve
 ```
 
 ## Citations
-Synthesizability using Machine Learning on Databases of Existing Inorganic Materials,” ACS Omega, vol. 8, no. 9, pp. 8210–8218, Mar. 2023, doi: 10.1021/acsomega.2c04856.
+[1] Synthesizability using Machine Learning on Databases of Existing Inorganic Materials,” ACS Omega, vol. 8, no. 9, pp. 8210–8218, Mar. 2023, doi: 10.1021/acsomega.2c04856.
+
 [2]	M. Thway et al., “Exploring material compositions for synthesis using oxidation states.” arXiv, May 14, 2024. Accessed: May 21, 2024. [Online]. Available: http://arxiv.org/abs/2405.08399
+
 [3]	M. J. McDermott, S. S. Dwaraknath, and K. A. Persson, “A graph-based network for predicting chemical reaction pathways in solid-state materials synthesis,” Nat Commun, vol. 12, no. 1, p. 3097, May 2021, doi: 10.1038/s41467-021-23339-x.
+
 [4]	M. J. McDermott et al., “Assessing Thermodynamic Selectivity of Solid-State Reactions for the Predictive Synthesis of Inorganic Materials,” ACS Cent. Sci., vol. 9, no. 10, pp. 1957–1975, Oct. 2023, doi: 10.1021/acscentsci.3c01051.
