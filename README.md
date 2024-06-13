@@ -1,11 +1,9 @@
 # What is this?
-The ‘Design-Test-Make-Analyze’ paradigm features a combination of different candidate prediction algorithms from structure, oxidation state, to pathway prediction, to improve candidate selection efficiency towards experimental realization. 
+The ‘Design-Test-Make-Analyze’ paradigm is a complete workflow with candidate prediction algorithms for structure, oxidation state, and pathway prediction, with the end goal of improving candidate selection efficiency towards experimental realization. 
 
-- The first step involves a machine learning model[1] to evaluate the synthesizability of the input candidates (e.g. hypothetical ABO3 structures downloaded from the Materials Project). A workstation with RTX- has been used to train this machine learning model. A few hours to one day are required for training (no cross validation). Relevant software package is available at this GitHub page. 
-- The second step involves a statistical oxidation state probability model[2] to evaluate the likelihood of a compound to be charge neutral, based on the likelihood of individual elemental states. A workstation with 16-core CPU and 128GB RAM has been used to train this model. A few hours are required for 1 ternary system typically. The software package is available online at https://github.com/maungthway/synthesizability-ranking-filter. 
-- The third step involves a data-driven synthesis planning model, aiming at searching for highly selective and thermodynamically spontaneous reaction pathways[3], [4]. The calculation speed depends on the complexity of the phase diagram, which typically takes a few hours for a target ternary candidate. The software package of the reaction network is available online at https://github.com/maungthway/synthesizability-ranking-filter. 
-Detailed system requirements and installation guides can be found at respective repositories. 
-
+- The first step involves a machine learning model[1] to evaluate synthesizability of candidates (e.g. hypothetical ABO3 structures downloaded from the Materials Project). A workstation with RTX- will take a few hours to one day for training (no cross validation). Instructions for installation and implementation are available at this GitHub page below. 
+- The second step involves a statistical oxidation state probability model[2] to evaluate likelihood of a compound to be charge neutral based on likelihood of individual elemental states. A workstation with 16-core CPU and 128GB RAM was been used to train this model, taking a few hours for 1 ternary system typically. The software package is available online at https://github.com/maungthway/synthesizability-ranking-filter. 
+- The third step involves a data-driven synthesis planning model, aiming at searching for highly selective and thermodynamically spontaneous reaction pathways[3], [4]. The calculation speed depends on complexity of the phase diagram, which typically takes a few hours for a target ternary candidate. The software package of the reaction network is available online at https://github.com/materialsproject/reaction-network.
 
 
 ## How to use the SC model
