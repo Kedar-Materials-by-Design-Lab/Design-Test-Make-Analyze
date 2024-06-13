@@ -7,14 +7,10 @@ The ‘Design-Test-Make-Analyze’ paradigm features a combination of different 
 Detailed system requirements and installation guides can be found at respective repositories. 
 
 
-# SC_model
 
-SC Model is an inorganic material crystal materials synthesizability score prediction model
+## How to use the SC model
 
-## Installation
-
-Please use Python 3.7.7 to run the model.
-
+Please use Python 3.7.7.
 To install, just clone the repository. Then install all required packages:
 
 ```bash
